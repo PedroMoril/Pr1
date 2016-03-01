@@ -22,13 +22,13 @@ public class ActividadMensajes extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.mensajes_activity);
 
         //leer preferencias, si no hay nada (null), lanzar la actividad que recoje y escribe en preferencias PreferencesActivity
         sharedPref = getPreferences(MODE_PRIVATE);
         String usuario = String.valueOf( sharedPref.getString("usuario", "") );
 
-        if(usuario == ""){
+        if(usuario.equals("")){
             Intent evento = new Intent(getApplicationContext(), ActividadUsuario.class);
             startActivity(evento);
         }

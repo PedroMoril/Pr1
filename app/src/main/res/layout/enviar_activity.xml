@@ -8,8 +8,8 @@
     android:paddingTop="@dimen/activity_vertical_margin">
 
     <Button
-        android:text="@string/btn_usuario"
-            android:id="@+id/btn_usuario"
+        android:text="@string/btn_enviar"
+            android:id="@+id/btn_enviar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -18,18 +18,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Introduce tu identificador de usuario"
+        android:text="Usuario:"
         android:id="@+id/tv_user_enviar"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/et_usuario"
+        android:id="@+id/tv_msg_enviar"
+        android:text="Este es el texto que se va a enviar"
         android:layout_below="@+id/tv_user_enviar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:text="Usuario" />
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="106dp" />
+
 
 </RelativeLayout>
