@@ -5,7 +5,4 @@
     <string name="action_atras">Atras</string>
     <string name="btn_usuario">Aceptar</string>
     <string name="btn_enviar">Enviar</string>
-    <string name="juegos_set">Juegos por set</string>
-    <string name="num_sets">Numero de sets</string>
-    <sting name="punto_oro">Punto de oro en tie break</sting>
 </resources>
